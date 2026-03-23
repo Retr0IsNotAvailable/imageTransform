@@ -1,0 +1,13 @@
+.socialLinks {
+  margin: 6.25rem 0 0 8%;
+}
+
+/* social links icons */
+.socialLinks a {
+  font-size: 1.88rem;
+  color: #606163;
+  margin-right: 1.25rem;
+}
+.socialLinks a:hover {
+  color: #ff4321;
+}

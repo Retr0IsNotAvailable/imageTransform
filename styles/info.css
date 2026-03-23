@@ -17,4 +17,15 @@
 .info p {
   color: #606163;
   line-height: 1.34rem;
+  max-width: 35rem;
+}
+
+/* download CV link */
+.info a {
+  display: inline-block;
+  background: #212121;
+  color: #fff;
+  margin: 1.88rem 0;
+  padding: 0.62rem 1.1rem;
+  border-radius: 0.5rem;
 }

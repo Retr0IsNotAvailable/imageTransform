@@ -7,6 +7,7 @@
   position: absolute;
   right: 6.25rem;
   bottom: 0;
+  cursor: pointer;
 }
 
 /* the images themselves */
@@ -16,4 +17,12 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+.imageBox:hover .backgroundImage {
+  bottom: 2.5rem;
+}
+
+.imageBox:hover .mainImage {
+  left: 54%;
 }

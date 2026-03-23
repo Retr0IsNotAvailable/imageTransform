@@ -1,0 +1,19 @@
+/* styles for the middle-right side of the website */
+
+/* box that contains the images */
+.imageBox {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  right: 6.25rem;
+  bottom: 0;
+}
+
+/* the images themselves */
+.imageBox img {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
